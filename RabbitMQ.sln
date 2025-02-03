@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Publisher", "RabbitMQ.Publisher\RabbitMQ.Publisher.csproj", "{70FEE613-F11B-4CE5-9BB7-AEDC3AEA6827}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Publisher", "RabbitMQ.Publisher\RabbitMQ.Publisher.csproj", "{70FEE613-F11B-4CE5-9BB7-AEDC3AEA6827}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Consumer", "RabbitMQ.Consumer\RabbitMQ.Consumer.csproj", "{7C0DBD5B-604A-40D5-AB40-8C8994A4014E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Consumer", "RabbitMQ.Consumer\RabbitMQ.Consumer.csproj", "{7C0DBD5B-604A-40D5-AB40-8C8994A4014E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.DirectExchange.Publisher", "RabbitMQ.DirectExchange.Publisher\RabbitMQ.DirectExchange.Publisher.csproj", "{97EE5F75-D733-4149-9979-3388AC5C1D98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.DirectExchange.Consumer", "RabbitMQ.DirectExchange.Consumer\RabbitMQ.DirectExchange.Consumer.csproj", "{66BEDA83-E340-4333-B070-9DD13E573196}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{7C0DBD5B-604A-40D5-AB40-8C8994A4014E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C0DBD5B-604A-40D5-AB40-8C8994A4014E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C0DBD5B-604A-40D5-AB40-8C8994A4014E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97EE5F75-D733-4149-9979-3388AC5C1D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EE5F75-D733-4149-9979-3388AC5C1D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EE5F75-D733-4149-9979-3388AC5C1D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EE5F75-D733-4149-9979-3388AC5C1D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66BEDA83-E340-4333-B070-9DD13E573196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BEDA83-E340-4333-B070-9DD13E573196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BEDA83-E340-4333-B070-9DD13E573196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BEDA83-E340-4333-B070-9DD13E573196}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
